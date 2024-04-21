@@ -1,0 +1,28 @@
+.footer
+    padding: 80px
+    background: #333
+    &__logo
+        width: 120px
+    
+    &__list
+        list-style: none
+        text-align: center
+    &__item
+        display: inline-block
+        margin-right: 50px
+    &__link
+        &:link,  &:visited
+            color: $color-white
+            text-decoration: none
+            text-transform: uppercase
+            font-size: $font-size-paragraph
+            letter-spacing: 2px
+            font-weight: 300
+            display: inline-block
+            transition: .3s all
+            text-shadow: $shadow-h2
+        &:active
+        &:hover
+            transform: rotate(5deg) scale(1.2)
+            color: $color-brown-dark
+            
